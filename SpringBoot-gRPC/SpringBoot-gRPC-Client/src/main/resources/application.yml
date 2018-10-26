@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: SpringBoot-gRPC-Client
+
+grpc:
+  client:
+    SpringBoot-gRPC-Server:
+      host:
+        - 127.0.0.1
+      port:
+        - 20820
+      enableKeepAlive: true
+      keepAliveWithoutCalls: true
+      negotiationType: plaintext
+

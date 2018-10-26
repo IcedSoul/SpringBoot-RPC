@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: Thriftrpc-Server
+
+thrift:
+  port: 20820
+  minWorkerThreads: 1
+  maxWorkerThreads: 1024

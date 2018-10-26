@@ -1,0 +1,20 @@
+syntax = "proto3";
+option java_multiple_files = false;
+option java_package = "info.icedsoul.springbootgrpccommon";
+option java_outer_classname = "DemoProtobuf";
+option objc_class_prefix = "TS";
+
+package demo;
+
+service DemoService{
+    rpc demoFunction(DemoInput) returns(DemoOutput){}
+}
+
+message DemoInput{
+    string Key = 1;
+}
+
+message DemoOutput{
+    string Key = 1;
+}
+

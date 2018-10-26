@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Thriftrpc-Client" />
+        <module name="Thriftrpc-Common" />
+        <module name="Thriftrpc-Server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringBoot-ThriftRPC" target="8" />
+      <module name="Thriftrpc-Client" target="1.8" />
+      <module name="Thriftrpc-Common" target="8" />
+      <module name="Thriftrpc-Server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

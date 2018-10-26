@@ -1,0 +1,17 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: Dubbo-Server
+
+
+dubbo:
+  application:
+    id: Dubbo-Server
+    name: Dubbo-Server
+  registry:
+    protocol: zookeeper
+    address: 10.141.212.25:2181
+  protocol:
+    name: dubbo
+    port: 20880

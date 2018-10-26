@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-ThriftRPC.iml" filepath="$PROJECT_DIR$/SpringBoot-ThriftRPC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thriftrpc-Client/Thriftrpc-Client.iml" filepath="$PROJECT_DIR$/Thriftrpc-Client/Thriftrpc-Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thriftrpc-Common/Thriftrpc-Common.iml" filepath="$PROJECT_DIR$/Thriftrpc-Common/Thriftrpc-Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thriftrpc-Server/Thriftrpc-Server.iml" filepath="$PROJECT_DIR$/Thriftrpc-Server/Thriftrpc-Server.iml" />
+    </modules>
+  </component>
+</project>
