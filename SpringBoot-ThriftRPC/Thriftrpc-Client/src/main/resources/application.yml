@@ -5,5 +5,6 @@ spring:
     name: Thriftrpc-Client
 
 thrift:
-  host: localhost
+  # 如果你不是docker-compose方式启动项目，则将此处host地址改为localhost或者对应的IP地址
+  host: thriftrpc-server
   port: 20820

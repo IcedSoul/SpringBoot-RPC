@@ -8,8 +8,10 @@ spring:
 grpc:
   client:
     SpringBoot-gRPC-Server:
+      # 如果你没有使用docker-compose方式启动Demo，则需要将此处host改为对应IP地址
       host:
-        - 127.0.0.1
+      #  - 127.0.0.0
+        - springboot-grpc-server
       port:
         - 20820
       enableKeepAlive: true

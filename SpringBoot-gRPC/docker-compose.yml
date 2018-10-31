@@ -1,0 +1,25 @@
+version: '3'
+services:
+  springboot-grpc-server:
+    build: springboot-grpc-server
+    image: springboot-grpc/springboot-grpc-server
+    restart: always
+    ports:
+      - 19693:8080
+    networks:
+      - gxf-network
+
+  springboot-grpc-client:
+    build: springboot-grpc-client
+    image: springboot-grpc/springboot-grpc-client
+    depends_on:
+      - springboot-grpc-server
+    restart: always
+    ports:
+    - 19694:8081
+    networks:
+    - gxf-network
+
+networks:
+    gxf-network:
+      driver: bridge

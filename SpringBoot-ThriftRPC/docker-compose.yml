@@ -1,0 +1,25 @@
+version: '3'
+services:
+  thriftrpc-server:
+    build: thriftrpc-server
+    image: springboot-thriftrpc/thriftrpc-server
+    restart: always
+    ports:
+      - 19695:8080
+    networks:
+      - gxf-network
+
+  thriftrpc-client:
+    build: thriftrpc-client
+    image: springboot-thriftrpc/thriftrpc-client
+    depends_on:
+      - thriftrpc-server
+    restart: always
+    ports:
+    - 19696:8081
+    networks:
+    - gxf-network
+
+networks:
+    gxf-network:
+      driver: bridge

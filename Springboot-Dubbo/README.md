@@ -31,10 +31,12 @@ Dubbo RPC是一款高性能的JavaRPC框架。
 
 ```
 # 1. 使用如下指令，将代码下载到本地(需安装Git客户端)
-git clone https://github.com/IcedSoul/SpringBoot-RPC/tree/master/Springboot-Dubbo
+git clone https://github.com/IcedSoul/SpringBoot-RPC.git
+
+# 补充：这里使用到了zookeeper需要自己下载安装好并且启动，配置地址默认（Server&Client默认地址是localhost的2181端口）。如果没有安装Zookeeper启动时会报错。
 
 # 2. 进入项目目录并且执行Maven编译打包指令（需安装Maven）
-cd Springboot-Dubbo
+cd SpringBoot-RPC/Springboot-Dubbo
 mvn clean package -DskipTests
 
 # 3. 使用Docker启动并且运行此项目（需安装docker和docker-compose工具）
@@ -49,4 +51,4 @@ http://localhost:19692/swagger-ui.html
 - Dubbo Github：https://github.com/apache/incubator-dubbo
 - Dubbo 官网主页：http://dubbo.incubator.apache.org/zh-cn/
 - Spring Boot Dubbo Demo：https://github.com/apache/incubator-dubbo-spring-boot-project
-- Spring Boot Dubbo 博客：https://blog.csdn.net/mynameissls/article/details/82669224
+- Spring Boot Dubbo 博客：https://blog.csdn.net/mynameissls/article/details/82669224hao

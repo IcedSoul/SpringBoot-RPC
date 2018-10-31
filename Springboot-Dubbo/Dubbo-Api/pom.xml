@@ -6,7 +6,6 @@
     <groupId>info.icedsoul</groupId>
     <artifactId>dubbo-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <!--<packaging>jar</packaging>-->
     <name>Dubbo-Api</name>
     <description>Demo project for Spring Boot</description>
 

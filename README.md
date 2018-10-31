@@ -40,6 +40,11 @@ Remote Procedure Call 远程过程调用，
  
  如protobuff，dubbo和thift都可以仔细看一下源码
  
+ 具体的比较可以看以下博客的说明：  
+ 
+ thriftRPC和gRPC的特点比较：https://blog.csdn.net/testcs_dn/article/details/78038842
+ 
+ 常见RPC框架性能比较：https://colobu.com/2016/09/05/benchmarks-of-popular-rpc-frameworks/
  
  ### 主要框架
  
@@ -53,3 +58,5 @@ Remote Procedure Call 远程过程调用，
  
 - https://waylau.com/remote-procedure-calls/
 - https://www.jianshu.com/p/5b90a4e70783
+- https://blog.csdn.net/testcs_dn/article/details/78038842
+- https://colobu.com/2016/09/05/benchmarks-of-popular-rpc-frameworks/
