@@ -11,7 +11,7 @@ dubbo:
     name: Dubbo-Server
   registry:
     protocol: zookeeper
-    address: 10.141.212.25:2181
+    address: localhost:2181
   protocol:
 #    id: dubbo
     name: dubbo
