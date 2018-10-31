@@ -1,0 +1,25 @@
+version: '3'
+services:
+  dubbo-server:
+    build: dubbo-server
+    image: springboot-dubbo/dubbo-server
+    restart: always
+    ports:
+      - 19691:9090
+    networks:
+      - gxf-network
+
+  dubbo-client:
+    build: dubbo-client
+    image: springboot-dubbo/dubbo-client
+    depends_on:
+      - dubbo-server
+    restart: always
+    ports:
+    - 19692:9091
+    networks:
+    - gxf-network
+
+networks:
+    gxf-network:
+      driver: bridge

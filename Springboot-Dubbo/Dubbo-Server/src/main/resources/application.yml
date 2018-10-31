@@ -13,5 +13,6 @@ dubbo:
     protocol: zookeeper
     address: 10.141.212.25:2181
   protocol:
+#    id: dubbo
     name: dubbo
     port: 20880
